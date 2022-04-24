@@ -252,12 +252,10 @@ p {
         max-width: 100%;
 
         &::before {
-            content: "";
             width: 20rem;
         }
 
         &::after {
-            content: "";
             left: 19.1rem;
         }
     }

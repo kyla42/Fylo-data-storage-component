@@ -293,11 +293,9 @@ p {
     max-width: 100%;
   }
   #range::before {
-    content: "";
     width: 20rem;
   }
   #range::after {
-    content: "";
     left: 19.1rem;
   }
   #scale span {
