@@ -20,9 +20,16 @@ html {
 }
 
 body {
+  height: 100vh;
   color: var(--Pale_Blue);
   font-size: 1.4rem;
   background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 h1 {
@@ -38,7 +45,7 @@ p {
 
 #main_container {
   position: relative;
-  max-width: 144rem;
+  width: 144rem;
   height: 80rem;
   margin: auto;
   display: -webkit-box;
