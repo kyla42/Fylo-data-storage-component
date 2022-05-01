@@ -74,7 +74,7 @@ p {
     gap: 3rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 56.25em) {
     #main_container {
         width: 37.5rem;
         height: 100vh;
@@ -128,7 +128,7 @@ p {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 56.25em) {
     #left {
         width: 32.8rem;
         margin-bottom: 0;
